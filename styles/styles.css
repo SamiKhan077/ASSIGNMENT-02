@@ -1,5 +1,9 @@
 
 /* @import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&family=Inter:wght@100..900&display=swap'); */
+
+body {
+    background: rgba(46, 209, 209, 0.397);
+}
 .nav {
     background: #111111;
 }
@@ -19,7 +23,7 @@
 
 .navbar-div {
     border: 1px solid #FFFFFF;
-    border-radius: 16px;
+    border-radius: 25px;
     padding: 2%;
 }
 
@@ -50,6 +54,10 @@
     margin-right: 15%;
 }
 
+.content-flex i {
+    font-family: "parisienne", cursive ;
+}
+
 .content-flex h1 {
     color: white;
     font-size: 76px;
@@ -62,7 +70,6 @@
 }
 
 .content-flex a {
-    border: 1px solid white;
     border-radius: 25px;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -78,4 +85,108 @@
 .back-color {
     background: #E6533C;
     border: 1px solid #E6533C;
+}
+
+.border {
+    border: 1px solid white;
+}
+
+.ref-img {
+    background: black;
+}
+
+.h1-p-center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 10%;
+    margin-bottom: 5%;
+
+}
+
+.h1-p-center h1 {
+    font-size: 48px;
+    color: white;
+}
+
+.h1-p-center p {
+    font-size: 20px;
+    color: white;
+}
+
+.gym-img {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 20%;
+    margin-left: 20%;
+}
+
+.images-ex {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 300px;
+    align-items: center;
+    text-align: center;
+    
+}
+
+.images-ex p , h1 {
+    font-size: 20px;
+}
+
+.images-ex img {
+    border-radius: 50%;
+}
+
+.run-mile {
+    display: flex;
+    justify-content:space-between;
+    margin: 5% 20%;
+    background: #222222;
+    color: white;
+    border-radius: 18px;
+}
+
+.run {
+    margin-left: 15%;
+}
+
+.run h1 {
+    font-size: 48px;
+    width: 250px;
+}
+
+.run p {
+    font-size: 20px;
+    color: rgb(255, 255, 255, 0.5);
+    width: 400px;
+}
+
+.run a {
+    border: 1px solid #E6533C;
+    font-size: 18px;
+    border-radius: 42px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 60px;
+    padding-right: 60px;
+    background: #E6533C;
+    text-decoration: none;
+    color: white;
+    margin-top: 20px;
+}
+
+.run-mile img {
+    border: 1px solid transparent;
+    border-radius: 16px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 60px;
+    padding-right: 60px;
 }

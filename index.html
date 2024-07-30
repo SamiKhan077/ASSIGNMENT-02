@@ -4,6 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Assignment 02 </title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Parisienne&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/miama" rel="stylesheet">
     <link rel="stylesheet" href="styles/styles.css">
 </head>
 <body>
@@ -19,7 +23,7 @@
         </nav>
             <section class="content-flex">
                 <div>
-                    <h1>Get body in <i>shape</i> & stay healthy</h1>
+                    <h1>Get body in <span>shape</span> & stay healthy</h1>
                     <p>Health is a state of complete physical, mental, and social well-being and not merely the absence of disease or infirmity</p>
                     <a class="back-color" href="#">Join Club Now!</a>
                     <a class="border" href="#">Download app</a>
@@ -62,6 +66,49 @@
             <a href="#">Join Now</a>
         </div>
         <img src="images/run.jpg" alt="">
+    </section>
+    <section class="bmi">
+        <h1 class="font-size">BMI Calculator</h1>
+        <p class="font-size-p">Free Body Mass Index calculator gives out the BMI value and categorizes BMI based on provided information from WHO and CDC for both adults and children</p>
+    </section>
+    <section class="bmi-calc">
+        <section  class="bmi-chart">
+            <h1 class="bmi-text">BMI Calculator Chart</h1>
+            <table>
+                <tr>
+                    <td class="bmi-heding">BMI</td>
+                    <td class="bmi-heding">Weight status</td>
+                </tr>
+                <tr>
+                    <td class="bmi-el">Below 18.5</td>
+                    <td class="bmi-el">Underweight</td>
+                </tr>
+                <tr>
+                    <td class="bmi-el">18.5 - 24.9</td>
+                    <td class="bmi-el">Healthy</td>
+                </tr>
+                <tr>
+                    <td class="bmi-el">25.0 - 29.9</td>
+                    <td class="bmi-el">Overweight</td>
+                </tr>
+                <tr>
+                    <td class="bmi-el">30.0 - and above</td>
+                    <td class="bmi-el">Obese</td>
+                </tr>
+            </table>
+        </section>
+        <section class="calculate-bmi">
+            <h1 class="bmi-text">Calculate your BMI</h1>
+            <p class="font-size-p">Input your details and calculate your BMI</p>
+            <section class="input">
+                <input type="text" value="Height/cm">
+                <input type="text" value="Weight/kg" name="" id="">
+                <input type="text" name="" id="" value="Age">
+                <select name="" id=""> <option value="">Sex</option></select>
+                <select class="five" name="" id=""><option value="">Select an activity factor</option></select>
+                <a href="">Calculate</a>
+            </section>
+        </section>
     </section>
 </body>
 </html>

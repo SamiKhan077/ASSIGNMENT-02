@@ -2,10 +2,14 @@
 /* @import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&family=Inter:wght@100..900&display=swap'); */
 
 body {
-    background: rgba(46, 209, 209, 0.397);
+    background: rgba(35, 37, 0, 0.397);
+    width: 100%;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
 }
 .nav {
     background: #111111;
+    width: 100%;
 }
 
 .navbar {
@@ -54,13 +58,18 @@ body {
     margin-right: 15%;
 }
 
-.content-flex i {
-    font-family: "parisienne", cursive ;
+.content-flex span {
+    font-family: 'Miama', sans-serif;
+    font-weight: 300;
+    font-style: italic;
+    line-height: 94px;
 }
 
 .content-flex h1 {
     color: white;
     font-size: 76px;
+    width: 450px;
+    line-height: 1;
 }
 
 .content-flex p {
@@ -150,7 +159,7 @@ body {
     margin: 5% 20%;
     background: #222222;
     color: white;
-    border-radius: 18px;
+    border-radius: 40px;
 }
 
 .run {
@@ -184,9 +193,74 @@ body {
 
 .run-mile img {
     border: 1px solid transparent;
-    border-radius: 16px;
+    border-radius: 20%;
     padding-top: 16px;
     padding-bottom: 16px;
     padding-left: 60px;
     padding-right: 60px;
+    object-fit: none;
+    object-position: 66% 33%;
+}
+
+.bmi {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+.bmi-text {
+    color: white;
+}
+
+.font-size {
+    font-size: 48px;
+    color: white;
+}
+
+.font-size-p {
+    font-size:20px ;
+    color: rgb(255, 255, 255, 0.5);
+}
+
+.bmi-chart {
+    width: 600px;
+}
+
+.bmi-chart table {
+    border-spacing: 0;
+    margin-right: 20%;
+}
+
+.bmi-chart td {
+    border: 1px solid rgb(255, 255, 255, 0.1);
+    padding: 20px;
+    padding-right: 100px;
+}
+
+.bmi-calc {
+    display: flex;
+    justify-content: center;
+    background: rgba(34,34,34,1);
+    padding-top: 2%;
+    padding-bottom: 2%;
+    margin-top: 5%;
+}
+
+.bmi-el {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.input {
+    display: grid;
+    grid-template-columns:repeat(2,1fr) ;
+    gap: 10px;
+    height: 70%;
+    width: 600px;
+    font-size: 14px;
+}
+
+.five {
+    grid-column: span 2;
 }
